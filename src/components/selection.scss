@@ -1,3 +1,6 @@
+@use "../tokens/mixins";
+@import "../tokens/variables";
+
 .time-info {
     display: flex;
     flex-direction: column;
@@ -26,8 +29,8 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    border-radius: 12px;
-    border: 1px solid black;
+    border-radius: $border-radius-medium;
+    border: 1px solid $color-border-default;
     width: 240px;
 }
 
