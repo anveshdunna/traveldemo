@@ -1,0 +1,42 @@
+@import "variables.scss" ;
+
+@mixin title3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+@mixin label {
+  font-size: $label-font-size;
+  font-weight: 500;
+  line-height: $label-line-height;
+}
+
+@mixin caption1 {
+  font-size: 0.75rem;
+  line-height: 1rem;  
+}
+
+@mixin caption1-bold {
+  @include caption1;
+  font-weight: 500;
+}
+
+@mixin caption2 {
+  font-size: 0.6875rem;
+  line-height: 0.875rem;  
+}
+
+@mixin caption2-bold {
+  @include caption2;
+  font-weight: 500;
+}
+@mixin body {
+  font-size: 1.0625rem;
+  line-height: 1.375rem;
+}
+
+@mixin body-bold {
+  @include body;
+  font-weight: 600;
+}

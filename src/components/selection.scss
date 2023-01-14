@@ -1,0 +1,39 @@
+.time-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.itinerary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.arrival {
+    align-items: end;
+}
+
+.divider {
+    height: 1px;
+    flex-grow: 1;
+    background-color: #FF0000;
+}
+
+.selection-card {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid black;
+    width: 240px;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0px 24px;
+}
