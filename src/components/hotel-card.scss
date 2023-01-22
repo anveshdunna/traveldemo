@@ -1,0 +1,11 @@
+@use '../tokens/mixins';
+@import '../tokens/variables';
+
+.hotel-list {
+  display: flex;
+  flex-direction: column;
+}
+.hotel-card {
+  background-color: #ffffff;
+  width: 328px;
+}

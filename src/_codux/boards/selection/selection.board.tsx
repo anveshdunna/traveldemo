@@ -3,5 +3,5 @@ import { Selection } from '../../../components/Selection';
 
 export default createBoard({
     name: 'Selection',
-    Board: () => <Selection />
+    Board: () => <Selection />,
 });
