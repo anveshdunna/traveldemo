@@ -1,0 +1,13 @@
+@use '../tokens/mixins';
+@import '../tokens/variables';
+
+.tag {
+  background-color: $color-surface-default;
+  padding: 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  border: 1px solid $color-border-default-subtle;
+  border-radius: 16px;
+  @include mixins.caption1-bold;
+}

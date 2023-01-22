@@ -4,8 +4,79 @@
 .hotel-list {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 .hotel-card {
   background-color: #ffffff;
   width: 328px;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid $color-border-default-subtle;
+}
+
+.hotel-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hotel-card__body {
+  padding: 12px;
+}
+.tags {
+  display: flex;
+  gap: 4px;
+  flex-direction: row;
+  margin: 16px -16px 0px 0px;
+}
+
+.hotel-card__img {
+  width: 100%;
+}
+
+.hotel-card__quality {
+  display: flex;
+}
+.hotel-card__rating {
+  @include mixins.caption1-bold;
+}
+
+.hotel-card__quality {
+  @include mixins.caption1;
+  display: flex;
+  gap: 4px;
+}
+
+.hotel-card__reviews {
+  @include mixins.caption1;
+}
+
+.hotel-card__title {
+  @include mixins.body-bold;
+}
+
+.hotel-card__location {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.hotel-card__star {
+  @include mixins.caption1;
+}
+
+.hotel-card__dot {
+  @include mixins.caption1;
+}
+
+.hotel-card__address {
+  @include mixins.caption1;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hotel-card__distance {
+  @include mixins.caption1;
 }

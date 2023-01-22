@@ -4,10 +4,13 @@ import { HotelCard } from './components/HotelCard';
 
 function App() {
     return (
-        <div>Hello world
-        <div className="hotel-list">
-            <HotelCard />
-        </div></div>
+        <div>
+            Hello world
+            <div className="hotel-list">
+                <HotelCard />
+                <HotelCard />
+            </div>
+        </div>
     );
 }
 
