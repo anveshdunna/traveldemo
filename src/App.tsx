@@ -7,8 +7,11 @@ function App() {
         <div>
             Hello world
             <div className="hotel-list">
-                <HotelCard />
-                <HotelCard />
+                {Array(20)
+                    .fill('')
+                    .map(function () {
+                        return <HotelCard />;
+                    })}
             </div>
         </div>
     );
