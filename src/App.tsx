@@ -1,12 +1,10 @@
-import logo from './assets/logo.svg';
-import styles from './App.module.scss';
 import { HotelCard } from './components/HotelCard';
 
 function App() {
     return (
-        <div>
+        <div className="p-4">
             Hello world
-            <div className="hotel-list">
+            <div className="flex-row gap-3 p-0">
                 {Array(20)
                     .fill('')
                     .map(function () {

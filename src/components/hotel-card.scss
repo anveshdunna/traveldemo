@@ -37,9 +37,6 @@
 .hotel-card__quality {
   display: flex;
 }
-.hotel-card__rating {
-  @include mixins.caption1-bold;
-}
 
 .hotel-card__quality {
   @include mixins.caption1;
